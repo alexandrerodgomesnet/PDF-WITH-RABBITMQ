@@ -10,7 +10,8 @@ builder.Services.AddSwaggerGen();
 builder
     .Services
         .AddInfrastructure(builder.Configuration)
-        .AddRepositories();
+        .AddRepositories()
+        .AddServices();
 
 var app = builder.Build();
 

@@ -3,6 +3,8 @@ using Core.Infra.Data;
 using Core.Infra.Data.Context;
 using Core.Repositories;
 using Core.Repositories.Interfaces;
+using Core.Services;
+using Core.Services.Interfaces;
 using FluentMigrator.Runner;
 
 namespace Core.Infra.IoC
@@ -20,6 +22,12 @@ namespace Core.Infra.IoC
                     .WithGlobalConnectionString(configuration.GetConnectionString("Default"))
                     .ScanIn(Assembly.GetExecutingAssembly()).For.Migrations());
 
+            return services;
+        }
+
+        public static IServiceCollection AddServices(this IServiceCollection services)
+        {
+            services.AddTransient<ICashHistoryService, CashHistoryService>();
             return services;
         }
 
