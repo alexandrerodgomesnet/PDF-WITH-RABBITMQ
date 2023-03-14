@@ -28,6 +28,7 @@ namespace Core.Infra.IoC
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddTransient<ICashHistoryService, CashHistoryService>();
+            services.AddTransient<IMessageSender, Core.Services.RabbitMQ>();
             return services;
         }
 

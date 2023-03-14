@@ -86,3 +86,4 @@ C:\Users\alrodgom\Music\ESTUDOS\PDF-WITH-RABBITMQ\Core\obj\Debug\net7.0\refint\C
 C:\Users\alrodgom\Music\ESTUDOS\PDF-WITH-RABBITMQ\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\alrodgom\Music\ESTUDOS\PDF-WITH-RABBITMQ\Core\obj\Debug\net7.0\Core.genruntimeconfig.cache
 C:\Users\alrodgom\Music\ESTUDOS\PDF-WITH-RABBITMQ\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\alrodgom\Music\ESTUDOS\PDF-WITH-RABBITMQ\core\bin\Debug\net7.0\RabbitMQ.Client.dll
